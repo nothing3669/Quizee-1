@@ -26,6 +26,7 @@ export default function SimpleSelect(props) {
                <div className="col-md-4 col-12 mx-auto my-2">
                   <label htmlFor="difficulty_type">Select Difficulty</label> <br />
                   <select name="difficulty_type" className="w-100 input-class">
+                     <option value="">Any Difficulty</option>
                      <option value="easy">Easy</option>
                      <option value="medium">Medium</option>
                      <option value="hard">Hard</option>
@@ -34,6 +35,7 @@ export default function SimpleSelect(props) {
                <div className="col-md-4 col-12 mx-auto my-2">
                   <label htmlFor="category_type">Select Category</label> <br />
                   <select name="category_type" className="w-100 input-class">
+                     <option value="">Any Category</option>
                      {categories.map((val, ind) => {
                         return (
                            <option value={val.id} id={ind}>
