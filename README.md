@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Quiz App named Quizee
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was made by Rajan Gautam using React, Bootstrap, Material-UI and API.
 
-## Available Scripts
+## Site URL
 
-In the project directory, you can run:
+This site's published on the given URL.
 
-### `npm start`
+Link: https://rgautam320-quizee.netlify.app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Steps to Run the Application
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Step 1:
 
-### `npm test`
+After loading the page, you will see three input fields. In the first one you need to give a number from 1 to 10, which indicates the number of questions. In the second field, you need to choose the difficulty level and in the third one, you can choose the category. You also have option to skip those choices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Home_Quizee](https://user-images.githubusercontent.com/71542496/115102205-089eba00-9f67-11eb-9f8b-0ca734f5e540.png)
 
-### `npm run build`
+### Step 2:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+After clicking on Submit button, you will see the questions with options. When you select some option, the font of that button gets changed to black.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Question_First_Quizee](https://user-images.githubusercontent.com/71542496/115102270-71863200-9f67-11eb-826f-9e74f7cbbf09.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Question_Second_Quizee](https://user-images.githubusercontent.com/71542496/115102288-937fb480-9f67-11eb-89fb-fe1aec5d006e.png)
 
-### `npm run eject`
+### Step 3:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+As soon as you finish all the questions, you can see your final score. You can get a Reset button, to reset the quiz. You can get start the new quiz with the same procedure.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Score_Quizee](https://user-images.githubusercontent.com/71542496/115102372-0db03900-9f68-11eb-87f4-8cf2e7a846e0.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Step 4:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You can start theq quiz again with Submit button. You can specify another category, difficulty level and number of questions.
 
-## Learn More
+![Question_New_Quizee](https://user-images.githubusercontent.com/71542496/115102420-52d46b00-9f68-11eb-8049-aa3bc6564813.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Thank You
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Rajan Gautam
